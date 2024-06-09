@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="contact.css">
+
+
+</head>
+<body style="background-color: rgb(219, 219, 219);">
+    <nav style="background-color: rgb(255, 255, 255); height: 80px;">
+        <div style=" display: flex; align-items: center;  margin-left: 30px; margin-right: 30px;">
+            <ul style="display: flex; list-style-type: none; gap: 40px; align-items: center;">
+                <li>
+                    <img src="img/dumb.png" width="45px" alt="logo dumpways">
+                </li>
+                <li class="home-link">
+                    <a href="index.html"><b>HOME</b></a>
+                </li>
+                <li class="project-link">
+                    <a href="myprojeck.html">MYPROJECK</a>
+                </li>
+            </ul>
+
+            <div style=" 
+            display: flex; 
+            width: 100%;
+            justify-content: end;">
+            <a href="contack.html" class="btn-contact">CONTACT</a>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+   <div class="container">
+        <div class="containera">
+            <form class="form-contact">
+                <label for="label-contact">Name</label>
+                <input type="text" class="input-contact" id="inputName"> 
+    
+                <label for="label-contact">Email</label>
+                <input type="text" class="input-contact" id="inputEmail">
+    
+                <label for="label-contact">Phone Number</label>
+                <input type="text" class="input-contact" id="inputPhone">
+    
+                <label for="label-contact">Subjek</label>
+                <select class="input-contact" id="inputSubjek">
+                    <option></option>
+                    <option>Front End</option>
+                    <option>Back End</option>
+                    <option>Full Stack</option>
+                 </select>
+    
+                <label for="label-contact">Your Message</label>
+                <textarea class="input-contact" id="inputMessage"></textarea>
+                
+                <input  type="button"  value="Submit"  class="submit-contact"
+                onclick="submitData()">
+    
+            </form>
+        </div>
+        
+        <script src="js/contact.js"></script>
+
+   </div>
+    
+</body>
+</html>

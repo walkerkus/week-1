@@ -1,0 +1,52 @@
+
+.home-link {
+    font-size: 20px;
+}
+
+.home-link a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.home-link a:hover{
+    color: white;
+    background-color: orangered;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.project-link {
+    font-size: 20px;
+}
+
+.project-link a{
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+.project-link a:hover{
+    color: white;
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+}
+
+
+.btn-contact {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn-contact:hover{
+    background-color: orangered;
+}
